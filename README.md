@@ -19,3 +19,6 @@ I ordered two sets of LoRa SX1276 radios from mainland China, specifically the W
 I started by testing data reception, and it worked. Next, I connected the LoRa radio to the serial port of the water level meter. At the office, I connected the prepared microcontroller circuit to the LoRa radio. To my relief, the water level data was transmitted smoothly into the circuit.
 
 An added benefit is that with the microcontroller circuit located in the office, I can easily edit and upload programs to the board whenever needed.
+
+
+![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak./blob/main/waveshare_lora_sx1276_dtu_hf.webp?raw=true)
