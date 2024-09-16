@@ -34,3 +34,7 @@ This is the circuit diagram showing the connection between the microcontroller b
 ![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak/blob/main/esp32_thingspeak_wiring_diagram.webp?raw=true)
 
 ![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak/blob/main/esp32_thingspeak_box.webp?raw=true)
+
+**Integrated Development Environment (IDE)**
+
+For programming, I used the Arduino IDE, which is based on the C language. It offers various libraries to easily connect to peripherals such as the LCD screen, SD card, Wi-Fi, and Thingspeak. Since the Arduino IDE supports a wide range of boards, it’s important to select the correct one. In this case, I chose the ESP32 Dev Module.
