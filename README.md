@@ -1,0 +1,2 @@
+**Tide Station to ESP32 ThingSpeak**
+The Tide Station utilizes the Valeport TideMaster system to monitor water levels. The water level sensor measures pressure and converts it into water level readings. The sensor is connected to a Scannex device, which collects the data and transmits it to the cloud using a SIM card. The SIM card is leased, and the service fee is approximately 1,000 Baht per month.
