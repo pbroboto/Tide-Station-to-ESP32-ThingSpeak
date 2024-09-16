@@ -22,3 +22,5 @@ An added benefit is that with the microcontroller circuit located in the office,
 
 
 ![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak./blob/main/waveshare_lora_sx1276_dtu_hf.webp?raw=true)
+
+![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak./blob/main/lora_sx1276_valeport_tidemaster_and_esp32.jpg?raw=true)
