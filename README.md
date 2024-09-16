@@ -32,3 +32,5 @@ This is the circuit diagram showing the connection between the microcontroller b
 ![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak/blob/main/ESP32_Tide_Station_bb.jpg?raw=true)
 
 ![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak/blob/main/esp32_thingspeak_wiring_diagram.webp?raw=true)
+
+![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak/blob/main/esp32_thingspeak_box.webp?raw=true)
