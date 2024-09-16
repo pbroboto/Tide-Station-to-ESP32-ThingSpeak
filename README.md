@@ -60,3 +60,11 @@ To get started with ThingSpeak, register by visiting ThingSpeak.com and clicking
 ThingSpeak offers both free and paid plans. The free plan limits data logging to a maximum rate of once every 15 seconds.
 
 For this project, water level readings from the water station will be sent to ThingSpeak every minute. The data includes 8 fields: Water Level Station ID, Date, Time, Water Level, Units, Standard Deviation, Internal Voltage, and External Voltage. Since the water level station sends data once per minute, this meets the requirements of the free service plan.
+
+**Checking Data on ThingSpeak Cloud**
+
+To view your data on ThingSpeak, you can use a web browser or a mobile app. For example, on my Android phone, I installed the ThingView Free and ThingShow apps. These apps are user-friendly; simply enter your User ID to see the results displayed according to the format you've set up in ThingSpeak. While the apps do have ads, they are not intrusive.
+
+**Conclusion**
+
+In summary, the cost of creating a DIY microcontroller project to send water level data to the cloud is approximately 500 Baht for the materials, 2,000 Baht for the LoRa radio, and 1,500 Baht for a new radio antenna to enhance transmission, totaling around 4,000 Baht. The cloud service itself incurs no additional charges. This is a significant saving compared to renting a cloud service, which costs over 80,000 Baht per year. Stay tuned for the next article for more details.
