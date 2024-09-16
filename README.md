@@ -38,3 +38,9 @@ This is the circuit diagram showing the connection between the microcontroller b
 **Integrated Development Environment (IDE)**
 
 For programming, I used the Arduino IDE, which is based on the C language. It offers various libraries to easily connect to peripherals such as the LCD screen, SD card, Wi-Fi, and Thingspeak. Since the Arduino IDE supports a wide range of boards, it’s important to select the correct one. In this case, I chose the ESP32 Dev Module.
+
+**Capturing Data from the LoRa Radio**
+
+Capturing string data from the LoRa radio is straightforward. Each character is received and combined into a complete word. If the data matches the NMEA sentence pattern, the program continues capturing until the end of the sentence, verifying the checksum to ensure the data was transmitted correctly. If the checksum matches, the sentence is considered valid.
+
+For processing NMEA strings, I modified the TinyGPSPlus library, originally written by Mikal Hart, by adding support for the $PVTMA, $SDDBT, and $SDDPT sentences. I then renamed the library to TinyNMEA.
