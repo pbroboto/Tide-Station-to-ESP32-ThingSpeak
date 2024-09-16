@@ -24,3 +24,7 @@ An added benefit is that with the microcontroller circuit located in the office,
 ![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak./blob/main/waveshare_lora_sx1276_dtu_hf.webp?raw=true)
 
 ![alt text](https://github.com/pbroboto/Tide-Station-to-ESP32-ThingSpeak./blob/main/lora_sx1276_valeport_tidemaster_and_esp32.jpg?raw=true)
+
+**Wiring Diagram**
+
+This is the circuit diagram showing the connection between the microcontroller board and the LoRa radio. I used Fritzing to create the diagram, but since the Fritzing library doesn’t include the extension board I used, I substituted a breadboard to clearly display the 5V and ground connections.
