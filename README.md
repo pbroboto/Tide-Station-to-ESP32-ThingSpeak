@@ -44,3 +44,19 @@ For programming, I used the Arduino IDE, which is based on the C language. It of
 Capturing string data from the LoRa radio is straightforward. Each character is received and combined into a complete word. If the data matches the NMEA sentence pattern, the program continues capturing until the end of the sentence, verifying the checksum to ensure the data was transmitted correctly. If the checksum matches, the sentence is considered valid.
 
 For processing NMEA strings, I modified the TinyGPSPlus library, originally written by Mikal Hart, by adding support for the $PVTMA, $SDDBT, and $SDDPT sentences. I then renamed the library to TinyNMEA.
+
+$PVTMA,01,20240912,150400,2.270,0.009,m,6.045,13.485,0,3.410,,*16
+$PVTMA,01,20240912,150500,2.272,0.008,m,6.045,13.485,0,3.412,,*16
+$PVTMA,01,20240912,150600,2.276,0.009,m,6.045,13.492,0,3.415,,*11
+$PVTMA,01,20240912,150700,2.279,0.011,m,6.045,13.485,0,3.419,,*1c
+$PVTMA,01,20240912,150800,2.283,0.009,m,6.049,13.477,0,3.422,,*16
+
+**ThingSpeak Cloud Project**
+
+ThingSpeak is a web application that provides cloud data collection services for sensor data via a microcontroller board. It allows users to send and store values in a cloud-based area that is accessible for various uses. Additionally, data can be accessed from any web browser with an internet connection or through a mobile app, making it a convenient solution for IoT (Internet of Things) applications.
+
+To get started with ThingSpeak, register by visiting ThingSpeak.com and clicking the “Get Started For Free” button. Complete the registration form to activate your account. Once registered, sign in to create a channel by clicking My Channels and selecting Create New Channel. Make sure to note your User ID, Channel ID, and API Key, as these are needed for your program. Detailed instructions for creating a channel can be found online in both Thai and English.
+
+ThingSpeak offers both free and paid plans. The free plan limits data logging to a maximum rate of once every 15 seconds.
+
+For this project, water level readings from the water station will be sent to ThingSpeak every minute. The data includes 8 fields: Water Level Station ID, Date, Time, Water Level, Units, Standard Deviation, Internal Voltage, and External Voltage. Since the water level station sends data once per minute, this meets the requirements of the free service plan.
